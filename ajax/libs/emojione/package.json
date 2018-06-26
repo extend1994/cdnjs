@@ -4,7 +4,7 @@
   "filename": "js/emojione.min.js",
   "version": "3.1.6",
   "description": "Emoji One is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG and SVG formats provided for the emoji images.",
-  "homepage": "http://www.emojione.com",
+  "homepage": "https://www.emojione.com",
   "keywords": [
     "emojione",
     "Emoji One",
@@ -19,7 +19,7 @@
   "author": {
     "name": "Emoji One",
     "email": "ryan@emojione.com",
-    "url": "http://emojione.com"
+    "url": "https://www.emojione.com"
   },
   "autoupdate": {
     "source": "git",
@@ -39,12 +39,9 @@
       }
     ]
   },
-  "licenses": [
-    "MIT",
-    "CC-BY-SA-4.0"
-  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ranks/emojione.git"
+    "url": "https://github.com/emojione/emojione.git"
   }
 }
