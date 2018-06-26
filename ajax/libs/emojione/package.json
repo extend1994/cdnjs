@@ -23,16 +23,18 @@
   },
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/Ranks/emojione.git",
+    "target": "git://github.com/emojione/emojione.git",
     "fileMap": [
       {
-        "basePath": "",
+        "basePath": "lib",
         "files": [
-          "assets/svg/*",
-          "assets/sprites/!(*.mustache)",
-          "assets/png/*",
-          "assets/css/emojione.min.css",
-          "lib/js/emojione.min.js"
+          "js/emojione*"
+        ]
+      },
+      {
+        "basePath": "extras",
+        "files": [
+          "css/emojione*"
         ]
       }
     ]
